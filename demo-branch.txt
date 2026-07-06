@@ -11,3 +11,5 @@ old changes made newaly
 
 not all the space this is the load
 added for the work
+
+git is new to me and im learning
