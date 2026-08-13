@@ -21,3 +21,13 @@ pipeline {
         }
     }
 }
+stage('Cleanup') {
+    steps {
+        echo 'Cleaning up...'
+    }
+}
+stage('Final Stage') {
+    steps {
+        echo 'This is the final stage.'
+    }
+}git
