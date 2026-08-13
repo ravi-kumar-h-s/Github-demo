@@ -20,5 +20,11 @@ pipeline {
                 echo 'devops engineer'
             }
         }
+        stage('Deploy1') {
+            steps {
+                echo 'my wife is harshitha...'
+                echo 'devops engineer'
+            }
+        }
     }
 }
