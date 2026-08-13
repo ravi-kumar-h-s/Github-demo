@@ -24,6 +24,7 @@ pipeline {
             steps {
                 echo 'my wife is harshitha...'
                 echo 'devops engineer'
+                echo 'she is my love'
             }
         }
     }
