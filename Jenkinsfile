@@ -17,6 +17,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'my name is ravi...'
+                echo 'devops engineer'
             }
         }
     }
