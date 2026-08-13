@@ -30,4 +30,4 @@ stage('Final Stage') {
     steps {
         echo 'This is the final stage.'
     }
-}git
+}
