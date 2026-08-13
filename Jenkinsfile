@@ -26,8 +26,3 @@ stage('Cleanup') {
         echo 'Cleaning up...'
     }
 }
-stage('Final Stage') {
-    steps {
-        echo 'This is the final stage.'
-    }
-}
