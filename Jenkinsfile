@@ -2,30 +2,20 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Name') {
             steps {
-                echo 'Building...'
+                echo 'ravikumara...'
             }
         }
-
-        stage('Test') {
+        stage('father name') {
             steps {
-                echo 'Testing...'
+                echo 'swamy shetty...'
             }
         }
-
-        stage('Deploy') {
+        stage('mother name') {
             steps {
-                echo 'my name is ravi...'
-                echo 'devops engineer'
-            }
-        }
-        stage('Deploy1') {
-            steps {
-                echo 'my wife is harshitha...'
-                echo 'devops engineer'
-                echo 'she is my love'
-            }
+                echo 'Sharadamma...'
+}
         }
     }
 }
