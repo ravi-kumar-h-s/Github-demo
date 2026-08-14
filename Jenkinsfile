@@ -1,26 +1,36 @@
 pipeline {
     agent any
 
+    environment {
+        // image_name = "ravi-kumara-h-s/ravi-demo"
+        image_name = "sun113/django-app"
+        image_tag = "latest"        
+        
+        pipeline {
+    agent any
+
     stages {
-        stage('Name') {
+
+        stage('Checkout') {
             steps {
-                echo 'ravikumara...'
+                checkout scm
             }
         }
-        stage('father name') {
+
+        stage('Build Docker Image') {
             steps {
-                echo 'swamy shetty...'
+                script {
+                    docker.build("github-demo:latest")
+                }
             }
         }
-        stage('mother name') {
+
+        stage('List Docker Images') {
             steps {
-                echo 'Sharadamma...'
-}
-        }
-        stage('brother name') {
-            steps {
-                echo 'Deavraj s...'
+                sh 'docker images'
             }
         }
     }
 }
+        MY_ENV_VAR = 'some_value'
+    }
