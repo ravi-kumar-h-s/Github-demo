@@ -17,5 +17,10 @@ pipeline {
                 echo 'Sharadamma...'
 }
         }
+        stage('brother name') {
+            steps {
+                echo 'Deavraj s...'
+            }
+        }
     }
 }
